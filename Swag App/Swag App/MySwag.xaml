@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Swag_App.MySwag">
+    <ContentPage.Content>
+     <stackLayout spacing="10"
+                  padding="20"
+                  
+          <Entry Text="{Binding Name}"  Placeholder="Name"/>
+            <Entry Text="{Binding Gender}" Placeholder="Gender" />
+            <Entry Text="{Binding Size}" Placeholder="Size"/>
+            <Entry Text="{Binding Color}"  Placeholder="Color"/>
+            <Entry Text="{Binding Date}"  Placeholder="Date"/>
+            <Entry Text="{Binding Address}"  Placeholder="Address"/>
+
+
+
+    </ContentPage.Content>
+</ContentPage>
